@@ -8,8 +8,16 @@ $text1-color: #F2F1EE
 $text2-color: #2F2C22 
 $text3-color: #CEC7B2
 
-$border-color: #76786E
 
+$border-color: #76786E
+$border: 1px solid $border-color
+
+.bor-r
+    border-right: $border
+.bor-l
+    border-left: $border
+
+$text-shadow: 3px 3px 16px #000000
 
 @mixin h1-text
     font-family: "Ashley"
@@ -32,5 +40,5 @@ $border-color: #76786E
     font-weight: regular
     line-height: 2.4rem
 
-$border: 1px solid $border-color
+
 

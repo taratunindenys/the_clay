@@ -2,7 +2,50 @@
     box-sizing: border-box
     height: 13.2rem
     display: flex
+
+.first-section
+    display: grid
+    grid-template-columns: 51% 49%
+    grid-template-rows: 1fr
+    border-bottom: $border
+    height: 62rem
+    &__text-box
+        margin: 5.3rem 2rem 12rem 9.3rem
+    &__l
+        position: relative  
+    &__r
+        position: relative  
+
+.about   
+    display: grid
+    grid-template-columns: 26% 25% 19% 30% 
+    grid-template-rows: 1.5fr 2.5fr 1fr
+    grid-auto-columns: 1fr
+    gap: 0px 0px
+    grid-auto-flow: row
     
 
 
-    
+.about_box1  
+    grid-area: 1 / 1 / 2 / 3
+
+.about_box2  
+    grid-area: 1 / 3 / 2 / 5
+
+.about_box3  
+    grid-area: 2 / 1 / 3 / 3
+
+.about_box4  
+    grid-area: 2 / 3 / 3 / 4
+
+.about_box5  
+    grid-area: 2 / 4 / 3 / 5
+
+.about_box6  
+    grid-area: 3 / 1 / 4 / 3
+
+.about_box7  
+    grid-area: 3 / 3 / 4 / 4
+
+.about_box8  
+    grid-area: 3 / 4 / 4 / 5 
